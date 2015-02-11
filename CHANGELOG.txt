@@ -1,0 +1,13 @@
+Changelog:
+11 feb 2015:
+- Save as PNG included
+- Added readonly mindmap view option
+
+9 feb 2015:
+- Added Dutch language file (l10n/nl.js)
+
+18 jan 2015:
+- Code optimalisation
+- Adding Quick Start feature. Browse to 'http://[YOURSERVER]/apps/mindmap/'
+
+
