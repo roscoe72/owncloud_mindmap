@@ -20,16 +20,25 @@ Install:
 Known Issue:
 1. When opening Mindmap in Firefox, Chrome, eg a blank page with no Mindmap application. This is due to the webbrowser Content-Security-Policy (CSP). CSP is enabled in the lateste webbrowsers.
 There are two solutions to this issue:
+
 Option1. In firefox you can disable CSP. Open in address bar 'about:config' and search for 'security.csp.enable' and turn it off.
+
 Option2. Global disable CSP on the owncloud webserver. This can be disabled by adding the custom_csp_policy in the owncloud config.php.
 
+
 Place these lines in the $CONFIG Array section in the http://[YOURSERVER]/config/config.php file
+
 $CONFIG = array (...
+
 ...
+
 /* Custom CSP policy, changing this will overwrite the standard policy */
 'custom_csp_policy' => "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; frame-src *; img-src *; font-src 'self' data:; media-src *",
+
 ...
+
 );
+
 
 Check the lastest version on: http://www.toolstogether.nl
 

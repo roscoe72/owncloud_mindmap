@@ -8,6 +8,6 @@ Changelog:
 
 18 jan 2015:
 - Code optimalisation
-- Adding Quick Start feature. Browse to 'http://[YOURSERVER]/apps/mindmap/'
+- Adding Quick Start feature. Browse to 'http://[YOURSERVER]/index.php/apps/mindmap/'
 
 
